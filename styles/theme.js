@@ -18,6 +18,14 @@ const theme = extendTheme({
     normal: 400,
     medium: 600,
     bold: 700
+  },
+
+  components: {
+    Heading: {
+      baseStyle: {
+        fontFamily: `Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"` 
+      }
+    }
   }
 });
 
