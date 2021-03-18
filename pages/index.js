@@ -5,6 +5,7 @@ import { Icon } from '@chakra-ui/icons';
 
 //Internal
 import { useAuth } from '@/lib/auth';
+import EmptyState from '@/components/EmptyState';
 
 const IconLogo = (props) => (
   <Icon viewBox="0 0 46 32" {...props}>
