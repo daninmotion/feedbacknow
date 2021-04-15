@@ -1,11 +1,5 @@
 import React from 'react';
-import {
-  Icon,
-  Heading,
-  Box,
-  Text,
-  Button
-} from '@chakra-ui/react';
+import { Icon, Heading, Box, Text, Button } from '@chakra-ui/react';
 import DashboardShell from './DashboardShell';
 
 const FreePlanEmptyState = () => (

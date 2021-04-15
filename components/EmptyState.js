@@ -1,12 +1,7 @@
 import React from 'react';
-import {
-  Icon,
-  Heading,
-  Flex,
-  Text,
-  Button
-} from '@chakra-ui/react';
+import { Icon, Heading, Flex, Text, Button } from '@chakra-ui/react';
 import DashboardShell from './DashboardShell';
+import AddSiteModal from './AddSiteModal';
 
 const EmptyState = () => (
   <DashboardShell>
@@ -24,9 +19,7 @@ const EmptyState = () => (
         You haven't added any sites
       </Heading>
       <Text pt="8px">Welcome, let's get started</Text>
-      <Button variant="solid" size="md" mt="32px" minWidth="200px" fontWeight="medium">
-        Add Your First Site
-      </Button>
+      <AddSiteModal />
     </Flex>
   </DashboardShell>
 );
